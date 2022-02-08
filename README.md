@@ -25,7 +25,7 @@ Python | 3.9
 ## Setup
 
 ```
-git clone [insert project url here]
+git clone https://github.com/Pixelatory/PSO-GPU
 cd PSO-GPU
 ```
 
