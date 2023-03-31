@@ -1,7 +1,7 @@
 # PSO-GPU
 
-A basic particle swarm optimizer is implemented in Python and 
-makes use of the GPU. Times are included
+A vanilla particle swarm optimizer (PSO) and cooperative swarm optimizer are implemented in Python and 
+make use of the GPU. Times for vanilla PSO are included
 as a performance measure for comparison.
 
 ## Inspiration
@@ -16,11 +16,11 @@ computations. Therefore, I tried to see if this GPU enhancement can be brought o
 
 These are the packages and Python version I used for implementation:
 
-Package  | Version
-------------- | -------------
-TQDM  | 4.62.3
-PyTorch  | 1.10.0+cu113
-Python | 3.9
+| Package | Version |
+|---------|---------|
+ | TQDM    | 4.62.3  |
+ | PyTorch | 1.10.0+cu113 |
+ | Python  | 3.9     |
 
 ## Setup
 
